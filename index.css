@@ -9,6 +9,7 @@
 .u-section-1 .u-image-1 {
   width: 526px;
   height: 526px;
+  animation-timing-function: ease-in;
   margin: 217px 0 0 auto;
 }
 
