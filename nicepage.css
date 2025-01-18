@@ -45241,8 +45241,19 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 441px;
+  }
+
+  .u-footer .u-position-1 {
+    min-height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .u-footer .u-social-icons-1 {
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-right: auto;
   }
 }
 
