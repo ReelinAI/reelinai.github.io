@@ -45087,44 +45087,26 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 .u-footer .u-sheet-1 {
-  min-height: 222px;
+  min-height: 255px;
 }
 
 .u-footer .u-layout-wrap-1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 35px;
+  margin-bottom: 0;
 }
 
 .u-footer .u-layout-cell-1 {
-  min-height: 192px;
+  min-height: 135px;
 }
 
 .u-footer .u-container-layout-1 {
-  padding: 20px 0;
-}
-
-.u-footer .u-position-1 {
-  height: auto;
-  min-height: 22px;
-  margin: 0 60px 0 0;
-}
-
-.u-footer .u-text-2 {
-  font-size: 0.875rem;
-}
-
-.u-footer .u-layout-cell-2 {
-  min-height: 192px;
-}
-
-.u-footer .u-container-layout-2 {
-  padding: 20px 0;
+  padding: 8px 0;
 }
 
 .u-footer .u-image-1 {
   height: 99px;
   width: 99px;
-  margin: 0 auto;
+  margin: -1px auto 0 0;
 }
 
 .u-footer .u-logo-image-1 {
@@ -45132,8 +45114,16 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+.u-footer .u-layout-cell-2 {
+  min-height: 135px;
+}
+
+.u-footer .u-container-layout-2 {
+  padding: 20px 0;
+}
+
 .u-footer .u-layout-cell-3 {
-  min-height: 192px;
+  min-height: 135px;
 }
 
 .u-footer .u-container-layout-3 {
@@ -45142,11 +45132,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-social-icons-1 {
   white-space: nowrap;
-  height: 36px;
+  height: 26px;
   min-height: 16px;
-  width: 129px;
+  width: 98px;
   min-width: 68px;
-  margin: 0 0 0 auto;
+  margin: 21px auto 0 1042px;
 }
 
 .u-footer .u-icon-1 {
@@ -45162,9 +45152,24 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
   color: rgb(210, 34, 21) !important;
 }
+
+.u-footer .u-text-1 {
+  font-size: 0.75rem;
+  margin: -23px auto 0 1px;
+}
+
+.u-footer .u-text-2 {
+  font-size: 0.75rem;
+  margin: -19px auto 60px;
+}
+
+.u-footer .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 211px;
+    min-height: 203px;
   }
 
   .u-footer .u-layout-cell-1 {
@@ -45176,22 +45181,12 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 25px;
   }
 
-  .u-footer .u-position-1 {
-    width: 233px;
-    margin-right: 0;
-  }
-
   .u-footer .u-layout-cell-2 {
     min-height: 121px;
   }
 
-  .u-footer .u-image-1 {
-    height: 99px;
-    width: 99px;
-  }
-
   .u-footer .u-layout-cell-3 {
-    min-height: 121px;
+    min-height: 111px;
   }
 
   .u-footer .u-container-layout-3 {
@@ -45200,17 +45195,34 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 129px;
+    width: 98px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: -23px;
+    margin-left: 1px;
+  }
+
+  .u-footer .u-text-2 {
+    margin-top: 41px;
   }
 }
 @media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 313px;
+  }
+
+  .u-footer .u-layout-cell-1 {
+    min-height: 128px;
+  }
+
   .u-footer .u-container-layout-1 {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .u-footer .u-image-1 {
-    margin-right: 20px;
+  .u-footer .u-layout-cell-3 {
+    min-height: 128px;
   }
 
   .u-footer .u-container-layout-3 {
@@ -45219,41 +45231,64 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
+    margin-top: 32px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .u-footer .u-text-1 {
+    width: auto;
     margin-left: 0;
+  }
+
+  .u-footer .u-text-2 {
+    margin-top: 30px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 151px;
+    min-height: 798px;
   }
 
-  .u-footer .u-image-1 {
-    margin-right: auto;
+  .u-footer .u-layout-cell-1 {
+    min-height: 192px;
+  }
+
+  .u-footer .u-layout-cell-3 {
+    min-height: 192px;
   }
 
   .u-footer .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  .u-footer .u-social-icons-1 {
-    margin-left: auto;
-  }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 441px;
+    min-height: 531px;
   }
 
-  .u-footer .u-position-1 {
-    min-height: 45px;
-    margin-left: auto;
-    margin-right: auto;
+  .u-footer .u-layout-cell-1 {
+    min-height: 121px;
+  }
+
+  .u-footer .u-layout-cell-3 {
+    min-height: 121px;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 35px;
+    margin-top: 0;
     margin-right: auto;
+    margin-left: 0;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 20px;
+  }
+
+  .u-footer .u-text-2 {
+    margin-top: 9px;
+    margin-bottom: 20px;
   }
 }
 
